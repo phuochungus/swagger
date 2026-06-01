@@ -126,4 +126,7 @@ export interface SwaggerCustomOptions {
    * @deprecated This property has no effect.
    */
   urls?: Record<'url' | 'name', string>[];
+
+  
+  displayRequestDuration?: boolean;
 }
